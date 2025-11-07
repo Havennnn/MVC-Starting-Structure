@@ -31,9 +31,11 @@ root/
 │   │ │
 │   │ └── index.php
 │   │
-│   └─┬  about
-│     │
-│     └── index.php
+│   ├─┬  about
+│   │ │
+│   │ └── index.php
+│   │
+│   └── layout.php
 │ 
 ├─┬ core/
 │ │
