@@ -13,7 +13,7 @@ It uses:
 
 ## Project Structure
 
-``text
+```text
 root/
 ├── app/
 │ ├── controllers/ # Controllers (handle requests)
