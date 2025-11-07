@@ -11,8 +11,9 @@ It uses:
 
 ---
 
-## 🚧 Project Structure
+## Project Structure
 
+``text
 root/
 ├── app/
 │ ├── controllers/ # Controllers (handle requests)
@@ -34,11 +35,12 @@ root/
 ├── system/
 │ └── config.php # App + database configuration
 └── init.php # Autoload + loads core + loads config
+```
 
 
 ---
 
-## ⚙️ How Routing Works
+## How Routing Works
 
 The URL structure looks like:
 
@@ -52,7 +54,7 @@ Examples:
 
 ---
 
-## 🧱 Controllers
+## Controllers
 
 Controllers live in `app/controllers` and **must** use the namespace:
 
@@ -71,7 +73,7 @@ class About extends Controller
 }
 ```
 
-## 💾 Models
+## Models
 
 Models live in `app/models` and extend `Core\Model`.
 
@@ -99,7 +101,7 @@ class Post extends Model
 
 ```
 
-## 🎨 Views
+## Views
 
 Views live in `app/views/<controller>/<view>.php`.
 
@@ -110,7 +112,7 @@ They receive data as variables:
 <p>This is the about page.</p>
 ```
 
-## 🗄 Database Configuration
+## Database Configuration
 
 Set database connection details in:
 
@@ -128,7 +130,7 @@ Set database connection details in:
 
 --
 
-# 🏁 Running the App (Herd / Nginx)
+# Running the App (Herd / Nginx)
 
 In Herd, set your document root to:
 
@@ -139,7 +141,7 @@ Then visit:
 `http://php-modern-mvc.test/`
 
 
-# ✅ Adding a New Page
+# Adding a New Page
 
 1. Create controller: `app/controllers/Contact.php`
 
