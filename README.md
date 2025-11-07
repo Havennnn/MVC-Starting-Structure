@@ -16,15 +16,15 @@ It uses:
 root/
 ├── app/
 │ │
-│ ├─┬ controllers/ 				# Controllers (handle requests)
+│ ├─┬ controllers/ # Controllers (handle requests)
 │ │ │
-│ │ ├── Home.php                # Default Controller
+│ │ ├── Home.php # Default Controller
 │ │ │
-│ │ └── Home.php                # Default Controller
+│ │ └── Home.php # Default Controller
 │ │ 				
-│ ├── models/ 					# Models (database queries)
+│ ├── models/ # Models (database queries)
 │ │
-│ └─┬ views/ 					# Views (HTML templates)
+│ └─┬ views/ # Views (HTML templates)
 │   │
 │   ├─┬ home                
 │   │ │
@@ -36,21 +36,21 @@ root/
 │ 
 ├─┬ core/
 │ │
-│ ├── App.php 					# Router: maps URL -> controller/action/params
+│ ├── App.php # Router: maps URL -> controller/action/params
 │ │
-│ ├── Controller.php 			# Base controller (render, redirect, model loader)
+│ ├── Controller.php # Base controller (render, redirect, model loader)
 │ │
-│ └── Model.php 				# Base model (PDO connection)
+│ └── Model.php # Base model (PDO connection)
 │ 
-├─┬ public/ 					# Web root served by Herd/Nginx
+├─┬ public/ # Web root served by Herd/Nginx
 │ │
-│ └── index.php 				# Front controller (bootstraps App)
+│ └── index.php # Front controller (bootstraps App)
 │
 ├─┬ system/
 │ │
-│ └── config.php 				# App + database configuration
+│ └── config.php # App + database configuration
 │
-└── init.php 					# Autoload + loads core + loads config
+└── init.php # Autoload + loads core + loads config
 
 
 ---
